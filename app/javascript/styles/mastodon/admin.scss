@@ -870,6 +870,7 @@ a.name-tag,
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    flex-wrap: wrap;
 
     .account {
       padding: 0;
@@ -909,6 +910,7 @@ a.name-tag,
       display: flex;
       justify-content: flex-start;
       border-top: 1px solid var(--background-border-color);
+      flex-wrap:wrap;
 
       &__reported-by,
       &__assigned {
@@ -928,7 +930,8 @@ a.name-tag,
 
       &__content {
         flex: 1 1 auto;
-        max-width: calc(100% - 300px);
+        // max-width: calc(100% - 300px);
+        max-width:498px;
 
         &__icon {
           margin-inline-end: 4px;
